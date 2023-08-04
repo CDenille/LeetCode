@@ -1,7 +1,8 @@
+package ContainsDuplicate217;
 import java.util.HashSet;
 
-class containsDuplicate217 {
-    public static boolean containsDuplicate(int[] nums) {
+class containsDuplicate {
+    public static boolean solution(int[] nums) {
 
         // Create a new set to hold our values
         HashSet<Integer> numbers = new HashSet<>();
@@ -17,16 +18,5 @@ class containsDuplicate217 {
         }
         // Return false if we never find a duplicate
         return false;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = new int[] {1,10, 5, 7, 1};
-        int[] numbers = new int[] {6, 2, 11, 3};
-
-        // returns true
-        System.out.println(containsDuplicate(nums));
-
-        // returns false
-        System.out.println(containsDuplicate(numbers));
     }
 }
