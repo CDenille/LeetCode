@@ -5,9 +5,9 @@ This repository contains my solution to multiple LeetCode problems. My goal is t
 ## File Structure 
 
 - Each folder corresponds to a different data structure.
-- Inside each folder are files that contain the solution to a specific problem.
-- Each file is titled with its LeetCode title followed by the problem's LeetCode ID.
-- Files may contain multiple solutions as well as test cases.
+- Inside each folder are subfolders that contain the solution to a specific problem. The subfolders are titled with its LeetCode title followed by the problem's ID.
+- Inside each subfolders are files with the solution and supporting test cases. 
+- Subfolders may contain multiple solutions/test cases.
 
 ##
 
